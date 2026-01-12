@@ -18,6 +18,10 @@ jobs:
           username: ${{ secrets.SSH_USERNAME || 'root' }}
           port: ${{ secrets.SSH_PORT || 22 }}
           key: ${{ secrets.SSH_KEY }}
+          script_stop: true
+          debug: true
           script: |
-            cd /var/www/mysite/  # Путь к сайту на сервере
+            cd /var/www/mysite/
+            git stash
             git pull origin main
+            git stash pop || true
