@@ -25,13 +25,6 @@ const SiteConfig = {
     // Сервисы/поддомены
     services: [
         {
-            id: 'chat',
-            name: 'Chat',
-            description: 'Чат-платформа для общения',
-            icon: '💬',
-            subdomain: 'chat'
-        },
-        {
             id: 'portainer',
             name: 'Portainer',
             description: 'Управление контейнерами Docker',
