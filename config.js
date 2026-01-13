@@ -44,6 +44,13 @@ const SiteConfig = {
             description: 'Панель управления VPN',
             icon: '🔒',
             subdomain: 'vpnpanel'
+        },
+        {
+            id: 'nginx',
+            name: 'Nginx Admin Panel',
+            description: 'Панель админа Nginx',
+            icon: '⚙️',
+            url: 'https://nginx.devasmin.site'
         }
     ],
 
