@@ -51,6 +51,13 @@ const SiteConfig = {
             description: 'Панель админа Nginx',
             icon: '⚙️',
             url: 'https://nginx.devasmin.site'
+        },
+        {
+            id: 'netdata',
+            name: 'Netdata',
+            description: 'Мониторинг сервера в реальном времени',
+            icon: '📈',
+            url: 'https://netdata.devasmin.site'
         }
     ],
 
