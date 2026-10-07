@@ -3,7 +3,7 @@ const SiteConfig = {
     // Основные настройки
     site: {
         name: 'Мой Сайт',
-        domain: 'devasmin.site',
+        domain: 'devasmin.space',
         copyright: '2025 Все права защищены'
     },
 
@@ -50,14 +50,14 @@ const SiteConfig = {
             name: 'Nginx Admin Panel',
             description: 'Панель админа Nginx',
             icon: '⚙️',
-            url: 'https://nginx.devasmin.site'
+            url: 'https://nginx.devasmin.space'
         },
         {
             id: 'netdata',
             name: 'Netdata',
             description: 'Мониторинг сервера в реальном времени',
             icon: '📈',
-            url: 'https://netdata.devasmin.site'
+            url: 'https://netdata.devasmin.space'
         }
     ],
 
